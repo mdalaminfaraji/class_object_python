@@ -17,6 +17,7 @@ class Bank:
         else:
             self.balance -=amount
             print(f'Here is your  money {amount}') 
+            print(f'{self.get_balance()}')
 
 brac= Bank(23420)
 brac.withdraw(24)
